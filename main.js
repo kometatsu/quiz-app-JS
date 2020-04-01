@@ -107,7 +107,7 @@ const checkAnswer = (liElement) => {
     alert("大正解！！");
     numberOfCorrects++;
   } else {
-    alert(`不正解... (正解は "${correctAnswer}"です！)`);
+    alert(`不正解... \n\n(正解は "${correctAnswer}"です！)`);
   }
   currentIndex++;
   nextQuiz();
