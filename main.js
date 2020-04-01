@@ -9,86 +9,60 @@ const restartButton = document.getElementById("restart-button");
 // クイズ配列
 const questionContainer = [
   {
-    question: "Who is the strongest?",
-    answers: ["Superman", "The Terminator", "Waluigi, obviously"],
-    correct_answer: "Waluigi, obviously"
+    question: "次のブランドは何と読む？『A.P.C.』",
+    answers: ["エー・ピー・シー", "アパック", "アー・ペー・セー"],
+    correct_answer: "アー・ペー・セー"
   },
   {
-    question: "What is the best site ever created?",
+    question: "次のブランドは何と読む？『agnes b.』",
+    answers: ["アグネス・ベー", "アニエス・ビー", "アニエス・ベー"],
+    correct_answer: "アニエス・ベー"
+  },
+  {
+    question: "次のブランドは何と読む？『Saint Laurent』",
+    answers: ["サンローレント", "セイントローレント", "サンローラン"],
+    correct_answer: "サンローラン"
+  },
+  {
+    question: "カーキ、モスグリーン、ベージュ、ブラウンなどの色をなんという??",
+    answers: ["ナチュラルカラー", "パステルカラー", "アースカラー"],
+    correct_answer: "アースカラー"
+  },
+  {
+    question: "ミリタリーのルーツは？",
+    answers: ["海軍", "陸軍", "軍隊"],
+    correct_answer: "軍隊"
+  },
+  {
+    question: "綿（コットン）素材の特徴で当てはまらないものは？",
     answers: [
-      "Simple Steps Code",
-      "Trick question; they're both the best",
-      "SitePoint"
+      "吸湿性があり、涼しく感じる",
+      "強度があり丈夫",
+      "シワが寄りにくい"
     ],
-    correct_answer: "SitePoint"
+    correct_answer: "シワが寄りにくい"
   },
   {
-    question: "Where is Waldo really?",
-    answers: ["Exploring the Pacific Ocean", "Sitting in a tree", "Antarctica"],
-    correct_answer: "Antarctica"
+    question: "次の中で「ドレスアイテム」に当てはまるものはどれ？",
+    answers: ["レザージャケット", "デニムジャケット", "テーラードジャケット"],
+    correct_answer: "テーラードジャケット"
   },
   {
-    question: "What is the best site ever created?",
-    answers: [
-      "Simple Steps Code",
-      "Trick question; they're both the best",
-      "SitePoint"
-    ],
-    correct_answer: "SitePoint"
+    question:
+      "太ももから足首にかけて徐々に細くなるパンツの形のことを何というか？",
+    answers: ["サルエル", "フレア", "テーパード"],
+    correct_answer: "テーパード"
   },
   {
-    question: "What is the best site ever created?",
-    answers: [
-      "Simple Steps Code",
-      "Trick question; they're both the best",
-      "SitePoint"
-    ],
-    correct_answer: "SitePoint"
+    question: "流行に左右されないデザインの服のことを何という？",
+    answers: ["カジュアル", "アヴァンギャルド", "トラッド"],
+    correct_answer: "トラッド"
   },
   {
-    question: "What is the best site ever created?",
-    answers: [
-      "Simple Steps Code",
-      "Trick question; they're both the best",
-      "SitePoint"
-    ],
-    correct_answer: "SitePoint"
-  },
-  {
-    question: "What is the best site ever created?",
-    answers: [
-      "Simple Steps Code",
-      "Trick question; they're both the best",
-      "SitePoint"
-    ],
-    correct_answer: "SitePoint"
-  },
-  {
-    question: "What is the best site ever created?",
-    answers: [
-      "Simple Steps Code",
-      "Trick question; they're both the best",
-      "SitePoint"
-    ],
-    correct_answer: "SitePoint"
-  },
-  {
-    question: "What is the best site ever created?",
-    answers: [
-      "Simple Steps Code",
-      "Trick question; they're both the best",
-      "SitePoint"
-    ],
-    correct_answer: "SitePoint"
-  },
-  {
-    question: "What is the best site ever created?",
-    answers: [
-      "Simple Steps Code",
-      "Trick question; they're both the best",
-      "SitePoint"
-    ],
-    correct_answer: "SitePoint"
+    question:
+      "飾り気のないスタイル&ファッションアイテムを使った着こなしのジャンルを何という？",
+    answers: ["アメカジ", "モード", "ノームコア"],
+    correct_answer: "ノームコア"
   }
 ];
 
