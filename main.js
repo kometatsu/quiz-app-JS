@@ -9,32 +9,33 @@ const restartButton = document.getElementById("restart-button");
 // クイズ配列
 const questionContainer = [
   {
-    question: "次のブランドは何と読む？『A.P.C.』",
+    question: "Q1.次のブランドは何と読む？『A.P.C.』",
     answers: ["エー・ピー・シー", "アパック", "アー・ペー・セー"],
     correct_answer: "アー・ペー・セー"
   },
   {
-    question: "次のブランドは何と読む？『agnes b.』",
+    question: "Q2.次のブランドは何と読む？『agnes b.』",
     answers: ["アグネス・ベー", "アニエス・ビー", "アニエス・ベー"],
     correct_answer: "アニエス・ベー"
   },
   {
-    question: "次のブランドは何と読む？『Saint Laurent』",
+    question: "Q3.次のブランドは何と読む？『Saint Laurent』",
     answers: ["サンローレント", "セイントローレント", "サンローラン"],
     correct_answer: "サンローラン"
   },
   {
-    question: "カーキ、モスグリーン、ベージュ、ブラウンなどの色をなんという??",
+    question:
+      "Q4.カーキ、モスグリーン、ベージュ、ブラウンなどの色をなんという??",
     answers: ["ナチュラルカラー", "パステルカラー", "アースカラー"],
     correct_answer: "アースカラー"
   },
   {
-    question: "ミリタリーのルーツは？",
+    question: "Q5.ミリタリーのルーツは？",
     answers: ["海軍", "陸軍", "軍隊"],
     correct_answer: "軍隊"
   },
   {
-    question: "綿（コットン）素材の特徴で当てはまらないものは？",
+    question: "Q6.綿（コットン）素材の特徴で当てはまらないものは？",
     answers: [
       "吸湿性があり、涼しく感じる",
       "強度があり丈夫",
@@ -43,24 +44,24 @@ const questionContainer = [
     correct_answer: "シワが寄りにくい"
   },
   {
-    question: "次の中で「ドレスアイテム」に当てはまるものはどれ？",
+    question: "Q7.次の中で「ドレスアイテム」に当てはまるものはどれ？",
     answers: ["レザージャケット", "デニムジャケット", "テーラードジャケット"],
     correct_answer: "テーラードジャケット"
   },
   {
     question:
-      "太ももから足首にかけて徐々に細くなるパンツの形のことを何というか？",
+      "Q8.太ももから足首にかけて徐々に細くなるパンツの形のことを何というか？",
     answers: ["サルエル", "フレア", "テーパード"],
     correct_answer: "テーパード"
   },
   {
-    question: "流行に左右されないデザインの服のことを何という？",
+    question: "Q9.流行に左右されないデザインの服のことを何という？",
     answers: ["カジュアル", "アヴァンギャルド", "トラッド"],
     correct_answer: "トラッド"
   },
   {
     question:
-      "飾り気のないスタイル&ファッションアイテムを使った着こなしのジャンルを何という？",
+      "Q10.飾り気のないスタイル&ファッションアイテムを使った着こなしのジャンルを何という？",
     answers: ["アメカジ", "モード", "ノームコア"],
     correct_answer: "ノームコア"
   }
